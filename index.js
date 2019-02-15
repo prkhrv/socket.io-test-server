@@ -12,7 +12,7 @@ var room = '';
 
 app.get('/:room', function(req, res){
   room = req.params.room;
-  // res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 
